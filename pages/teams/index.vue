@@ -25,7 +25,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 -m-4">
           <div v-for="(itm, idx) in teams" :key="idx" class="p-4">
             <div class="h-full flex flex-col items-center text-center">
-              <img alt="team" class="flex-shrink-0 rounded-lg w-full h-96 object-cover object-center mb-4"
+              <img alt="team" class="flex-shrink-0 rounded-lg w-full  h-64 object-cover object-center mb-4"
                 :src="require(`@/assets/img/${itm.img}`)">
               <div class="w-full">
                 <h2 class="title-font font-medium text-lg text-gray-900">
@@ -63,7 +63,7 @@ export default {
         {
           name: 'Deborah Myers',
           title: 'Executive Director',
-          img: 'ceoFemale.png',
+          img: 'ceoFemale.jpeg',
           profileUrl: 'ceo'
         },
         {

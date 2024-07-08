@@ -39,7 +39,7 @@
             </div>
             <div
               class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0  sm:text-left">
-              <img alt="content" class="object-cover object-center h-[800px] w-full" src="@/assets/img/ceoFemale.png">
+              <img alt="content" class="object-cover object-center h-[500px] w-full" src="@/assets/img/ceoFemale.jpeg">
               <p class="leading-relaxed text-base md:text-lg mb-4">
                 Deborah Myers is a seasoned executive with extensive experience in the finance and investment industry. As the CEO of Visionary Gains, a leading firm in financial management, Deborah is based in Maryland, USA. With over 15 years in the industry, she has showcased her exceptional ability to lead organizations and deliver strategic financial solutions.
 
