@@ -247,7 +247,7 @@ export default {
                 eth: this.selectedWallet.address
               }
           const response = await fetch(
-            'https://visionary-zpui.onrender.com/graphql/query',
+            'https://api.visionarygains.com/graphql/query',
             {
               method: 'POST',
               headers: {
@@ -293,7 +293,7 @@ export default {
       `
 
         try {
-          const response = await fetch('https://visionary-zpui.onrender.com/graphql/query', {
+          const response = await fetch('https://api.visionarygains.com/graphql/query', {
             method: 'POST',
             headers: {
               'content-type': 'application/json',
@@ -326,7 +326,7 @@ export default {
       `
 
         try {
-          const response = await fetch('https://visionary-zpui.onrender.com/graphql/query', {
+          const response = await fetch('https://api.visionarygains.com/graphql/query', {
             method: 'POST',
             headers: {
               'content-type': 'application/json',
@@ -374,7 +374,7 @@ export default {
       `
 
         try {
-          const response = await fetch('https://visionary-zpui.onrender.com/graphql/query', {
+          const response = await fetch('https://api.visionarygains.com/graphql/query', {
             method: 'POST',
             headers: {
               'content-type': 'application/json',

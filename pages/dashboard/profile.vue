@@ -14,13 +14,15 @@
 
         <div class="space-y-1">
           <label class="text-xs text-gray-700 font-medium">Last Name</label>
-          <input v-model="updatedUserData.lastName" type="text" class="py-2.5 md:py-2 text-sm md:text-base border rounded-md w-full outline-none pl-6">
+          <input v-model="updatedUserData.lastName" type="text"
+            class="py-2.5 md:py-2 text-sm md:text-base border rounded-md w-full outline-none pl-6">
           <span class="text-xs text-gray-500">We'll never share your details with anyone else</span>
         </div>
 
         <div class="space-y-1">
           <label class="text-xs text-gray-700 font-medium">Email address:</label>
-          <input v-model="updatedUserData.email" type="email" class="py-2.5 md:py-2 text-sm md:text-base border rounded-md w-full outline-none pl-6">
+          <input v-model="updatedUserData.email" type="email"
+            class="py-2.5 md:py-2 text-sm md:text-base border rounded-md w-full outline-none pl-6">
           <span class="text-xs text-gray-500">We'll never share your details with anyone else</span>
         </div>
 
@@ -220,7 +222,7 @@ export default {
           }
         `
         const response = await fetch(
-          'https://visionary-zpui.onrender.com/graphql/query',
+          'https://api.visionarygains.com/graphql/query',
           {
             method: 'POST',
             headers: {
@@ -275,7 +277,7 @@ export default {
       `
 
       try {
-        const response = await fetch('https://visionary-zpui.onrender.com/graphql/query', {
+        const response = await fetch('https://api.visionarygains.com/graphql/query', {
           method: 'POST',
           headers: {
             'content-type': 'application/json',

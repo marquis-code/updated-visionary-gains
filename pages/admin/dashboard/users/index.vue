@@ -170,7 +170,9 @@
         </div>
 
         <div class="w-full pt-10">
-          <button :disabled="processing" type="submit" class="bg-black disabled:cursor-not-allowed disabled:opacity-25 w-full text-white py-2.5 rounded-md">{{ processing ? 'processing' : 'Submit' }}</button>
+          <button :disabled="processing" type="submit"
+            class="bg-black disabled:cursor-not-allowed disabled:opacity-25 w-full text-white py-2.5 rounded-md">{{
+            processing ? 'processing' : 'Submit' }}</button>
         </div>
       </form>
     </b-modal>
@@ -345,7 +347,7 @@ export default {
         }
       `
         try {
-          const response = await fetch('https://visionary-zpui.onrender.com/graphql/query', {
+          const response = await fetch('https://api.visionarygains.com/graphql/query', {
             method: 'POST',
             headers: {
               'content-type': 'application/json',
@@ -392,7 +394,7 @@ export default {
           }
         `
           const response = await fetch(
-            'https://visionary-zpui.onrender.com/graphql/query',
+            'https://api.visionarygains.com/graphql/query',
             {
               method: 'POST',
               headers: {

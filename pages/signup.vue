@@ -161,7 +161,7 @@ export default {
         `
 
         const response = await fetch(
-          'https://visionary-zpui.onrender.com/graphql/query',
+          'https://api.visionarygains.com/graphql/query',
           {
             method: 'POST',
             headers: {
