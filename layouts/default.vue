@@ -87,20 +87,3 @@ body {
   margin: 0;
 }
 </style>
-
-<script>
-export default {
-  mounted() {
-    // Check if HubSpot chat is available
-    if (window.HubSpotConversations) {
-      window.HubSpotConversations.on('ready', this.onHubSpotReady);
-    }
-  },
-  methods: {
-    onHubSpotReady() {
-      console.log('HubSpot Chat is ready');
-      // Additional setup can be done here
-    },
-  },
-};
-</script>

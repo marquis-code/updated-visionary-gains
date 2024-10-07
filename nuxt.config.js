@@ -18,11 +18,6 @@ export default {
     ],
     script: [
       {
-        hid: "hubspot-chat",
-        src: "//js.hs-scripts.com/145161941.js",
-        defer: true,
-      },
-      {
         id: "tawk",
         src: "/js/chatbot.js",
       },
@@ -38,7 +33,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: "~/plugins/hubspot.js", mode: "client" },
     { src: "~/plugins/vue-carousel.js", mode: "client" },
     { src: "~/plugins/toastr.js", mode: "client" },
     { src: "~/plugins/enlargeImage.js", mode: "client" },
