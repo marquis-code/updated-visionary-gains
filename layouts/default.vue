@@ -14,7 +14,6 @@
         data-period-change="24H"
         data-api-url="https://api.cryptorank.io/v0"
       >
-        <!-- <a href="https://cryptorank.io">Coins by Cryptorank</a> -->
         <script src="https://cryptorank.io/widget/marquee.js" />
       </div>
     </div>
